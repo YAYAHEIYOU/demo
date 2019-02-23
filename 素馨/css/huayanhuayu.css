@@ -226,6 +226,14 @@
     font-size: 14px;
     height: 44px;
 }
+.aside-item>a{
+    color: #2a333c;
+    font-size: 15px;
+}
+.aside-item>a:hover{
+    color: #62a8ea;
+    text-decoration:underline;
+}
 .aside-item2{
     border-top-left-radius: 0;
     border-top-right-radius:0;
@@ -235,9 +243,13 @@
 .aside-item3{
     border-radius:0 0 3px 3px;
 }
-.met-news-aside>p{
+.met-news-aside>p>a{
     font-size: 16px;
     color: #2a333c;
+}
+.met-news-aside>p>a:hover{
+    color: #62a8ea;
+    text-decoration:underline;
 }
 /*底部开始*/
 
