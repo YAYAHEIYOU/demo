@@ -6,6 +6,10 @@ body{
     height: 0.91rem;
     background:#f7ac29;
     margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 .topBar{
     width: 100%;
@@ -69,7 +73,7 @@ body{
 .banner{
     width:7.5rem;
     height:3.69rem;
-    margin: 0.24rem auto 0;
+    margin: 1.15rem auto 0;
     box-shadow: 0 5px 16px 0 rgba(247, 172, 41, 0.75);
     position: relative;
 }
